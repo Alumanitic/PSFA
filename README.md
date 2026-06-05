@@ -41,3 +41,11 @@ If you input it you will notice that 2021 is blue and 22 is green. that is becau
 "print(name + str(integer))"
 
 Now what we did there is we converted the integer into a string so we could combine Mario and 2021 together (Mario2021). If we remove "str(integer)" we will get an exception saying we can only concentrate str and not "int" to str. the same thing goes to string number.
+
+We now move on to doing math in python. first lets create 2 variables, A = 22 and B = 25. ngl its pretty self explanitory so its,
+addition = a + b
+difference = a - b
+multiply = a * b
+divide = a/b
+power = a**b
+
