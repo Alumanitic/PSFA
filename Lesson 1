@@ -20,6 +20,8 @@ If we input the code "item = banana" then input "print(item, Item)" it will prin
                       item = apple
 Now lets add another string and this time it will be "print('Hello '+ item_name) and in this case its item_name = Orange, It will print "Hello Orange."
 
+DATA TYPES
+
 Next up in Python 3.8 is data types. So first of all we have integers. Integer is just any number. If we input "Integer = 2021 or 22023 or any number that number will be highlighted as blue. Then we have strings, as shown earlier it is just any text inside quotation marks. Then we have boolean which is just a simple true or false. and the final one is list. first you want to input angle brackets "[]"then add the values u want to add in the angle brackets. can be a mixture of numbers letters boolean and such,.
 
 Integer: Integer = 2021
@@ -41,3 +43,45 @@ If you input it you will notice that 2021 is blue and 22 is green. that is becau
 "print(name + str(integer))"
 
 Now what we did there is we converted the integer into a string so we could combine Mario and 2021 together (Mario2021). If we remove "str(integer)" we will get an exception saying we can only concentrate str and not "int" to str. the same thing goes to string number.
+We now move on to doing math in python. first lets create 2 variables, A = 22 and B = 25. ngl its pretty self explanitory so its,
+addition = a + b
+difference = a - b
+multiply = a * b
+divide = a/b
+power = a**b
+
+Then just do 
+
+print(addition)
+print(difference)
+print(multiply)
+print(divide)
+print(power).
+
+LOGIC STATEMENT
+Moving on To logic statement, lets create one. now you would want to use age and ishappy, the 2 values to create a logic statement or etc. 
+agee = 28
+ishappy = False
+(now lets say we want something to happen, the next code should be 2 spaces from the other code)
+
+if age > 21:
+  print('you are old') 
+elif age == 18:
+  print ('you are getting old')
+else:
+  print ('you are young')
+
+that code provided above is for the age. now lets make a logic statement for ishappy, which is technically the same thing as age.
+
+if ishappy: 
+   print('you are happy')
+else: 
+   print('you are not happy')
+
+   Keep in mind that the if statement only takes account if its true or false, and depending on that its gonna give the outcome of the outcome. and if its the if else, it would be the most used in your logic statement.
+
+   FOR LOOP
+   for i in range(3):                                 (which means its gonna look over 3 values)
+      print('hello', i)
+
+Now notice when you input that code it will show, (Hello 0, Hello 1, Hello 2), you may be asking why did it start at 0? the index conding always starts with the value 0. if you want that to one just add "+ 1" inside of the print. so its gonna end up as print('hello', i + 1)
